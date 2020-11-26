@@ -1,0 +1,207 @@
+@charset "euc-kr";
+
+@import url(http://font.imbc.com/nanumgothic/nanumgothic.css);
+
+body {font-family: '맑은 고딕', '맑은고딕', 'Malgun Gothic', 'malgun', 'Nanum Gothic'; letter-spacing: -1.2px;}
+a {color: inherit;}
+.blind {position: absolute; left: -9999px;}
+
+/*top*/
+.visual-top {position: relative; width: 100%; max-width: 1920px; margin: 0 auto; overflow: hidden;}
+.visual-top .pro-info {position: absolute; left: 40px; z-index: 20;}
+.main .visual-top .pro-info {bottom: 50px;}
+.sub .visual-top .pro-info {bottom: 40px;}
+.visual-top h1.tit-logo {float: left; display: inline-block; width: 73px; height: 73px;}
+.visual-top h1.tit-logo a {display: block; width: 100%; height: 100%;}
+h1.tit-logo a {display: block; width: 100%; height: 100%;}
+.visual-top .broad-info {float: left; margin-left: 15px; color: #FFF; margin-top: 6px;}
+.visual-top .broad-info .program-name {display: block; margin-bottom: 7px; font-size: 22px; font-weight: bold; line-height: 30px;}
+.visual-top .broad-info .broad-title {font-size: 12px; line-height: 1.1; letter-spacing: -0.03em;}
+.btn-like-program-wrap {display: inline-block; position: absolute; top: 23px; right: 18px; z-index: 100;}
+.visual-top .box-visual {width: 100%; height: 240px; padding-top: 10px; overflow: hidden;}
+.main .visual-top .box-visual {margin-bottom: 15px; width: 100%; height: 280px; padding-top: 0; margin-top: 10px; overflow: hidden;}
+.sub .visual-top .box-visual {}
+.roll-ban-event {position: relative; width: 100%; height: 280px; background: url('http://img.imbc.com/broad/tv/culture/document48/images/docu48-thum01.jpg') no-repeat center; overflow: hidden;}
+.roll-ban-event .thum {float: left; position: absolute; top: 0; left: 0; width: 100%; height: 280px; opacity: 0; -ms-filter: "alpha(opacity=0)"; z-index: 2;}
+.roll-ban-event .thum:first-child {opacity: 1; -ms-filter: "alpha(opacity=100)";}
+.roll-controll-btn {display: block; width: 100%; height: 41px; padding-top: 15px; text-align: center;}
+.roll-controll-btn .btn:last-child {margin-right: 0;}
+.roll-controll-btn .btn {display: inline-block; width: 12px; height: 12px; margin-right: 20px; border: 2px solid #DCDCDC; background: #DCDCDC; border-radius: 50%; box-sizing: border-box; cursor: pointer;}
+.roll-controll-btn .btn.on {border: 2px solid #000; background: transparent;}
+
+/* nav */
+.nav {position: relative; width: 100%; text-align: center; z-index: 150;}
+.nav ul {height: 65px; margin: 0 auto; text-align: center; width: 1218px;}
+.nav ul li {position: relative; display: inline-block; /*margin-right: 24px;*/ margin-right: 48px; line-height: 36px; text-align: center;}
+.nav ul li :last-child {margin-right: 0;}
+.nav ul li > a {display: block; width: 100%; padding: 16px 0 10px; font-size: 15px; color: #000;}
+.nav ul li > a:hover {border-bottom: 3px solid #FFF; color: #FFF; font-weight: bold;}
+.nav ul li > a.on {border-bottom: 3px solid #FFF; color: #FFF; font-weight: bold;}
+.nav ul li .dropdown {position: absolute; left: 50%; display: none;}
+.nav ul li .dropdown a {float: left; display: inline-block; margin-right: 14px; font-size: 15px; color: #000; line-height: 65px;}
+.nav ul li .dropdown a:hover {color: #567f18; text-decoration: underline;}
+
+/*===============content [START]===============*/
+#programContent.content {width: 1024px; margin: 0 auto;}
+.section {position: relative; overflow: hidden; height: 250px;}
+.main .tit-content {font-size: 14px; color: #000; line-height: 28px; font-weight: bold;}
+.main .section1 {padding-bottom: 46px;}
+.main .section2 {margin-bottom: 46px;}
+.main .section3 {margin-bottom: 100px;}
+.main .section2, .main .section3 {}
+.none-video {height: 250px; margin-left: -7%;}
+
+/* .section1 */
+.main .preVod {overflow: hidden; float: left;}
+.main .preVod .article {float: left; display: inline-block; width: 384px; height: 250px; overflow: hidden;}
+.main .preVod iframe {width: 100%; height: 100%;}
+.main .preVod .txt-wrap {position: absolute; float: left; display: inline-block; width: 335px; height: 222px; padding: 8px 0 20px 20px; color: #222;}
+.main .preVod .txt-wrap a {display: block; width: 100%; height: 100%;}
+.main .preVod .txt-wrap .tit-name {font-size: 14px; font-weight: bold;}
+.main .preVod .txt-wrap .title {max-height: 190px; margin-top: 7px; font-size: 17px; line-height: 27px; overflow: hidden; word-break: keep-all;}
+.main .preVod .txt-wrap .date {position: absolute; bottom: 6px; left: 20px; font-size: 14px; color: #757575; letter-spacing: 0;}
+.main .preVod .txt-wrap .num {margin-left: 10px;}
+.main .ad-rectangle {position: absolute; top: 0; right: 0; width: 250px; height: 250px;}
+.main .banner {float: right;}
+.main .banner .banner-wrap {position: relative; display: block; width: 250px; height: 250px; background: url(http://img.imbc.com/broad/tv/culture/straight/images/main-ban-jebo.jpg) no-repeat center center; background-size: 250px;}
+.main .banner .banner-wrap span.jebo-text {padding-top: 148px; display: block;}
+.main .banner .banner-wrap span.jebo-text span {font-size: 16px; line-height: 24px; letter-spacing: 0em; color: #000; display: block; text-align: center;}
+/*list-btn*/
+.main .btn-box {position: absolute; top: 0; right: 0; height: 28px;}
+.main .btn-box .btn-list {display: inline-block; border: 0; margin: 0; padding: 0; background: url("http://img.imbc.com/broad/tv/culture/document48/images/btn-prevNext.jpg") no-repeat; background-size: cover; font-size: 0; text-indent: -9999em; vertical-align: top; cursor: pointer;}
+.main .btn-box .btn-list.prev {width: 28px; height: 28px; margin-right: -5px; background-position: 0 0;}
+.main .btn-box .btn-list.next {width: 28px; height: 28px; background-position: -27px 0;}
+
+/* list-style */
+.main .clip-wrap {width: 714px; position: relative;}
+.main .type-list {width: 100%; height: 216px; margin-top: 6px; overflow: hidden;}
+.main .type-list li {float: left; width: 230px; /*margin-right: 12px;*/ margin-right: 34px;}
+/*.main .type-list li:nth-child(3n) {margin-right: 0;}*/
+.main .type-list li:nth-child(4n) {margin-right: 0;}
+.main .type-list li a {display: block; width: 100%; height: 100%;}
+.main .type-list li a:hover .title {text-decoration: underline;}
+.main .type-list li .img {overflow: hidden; width: 100%; height: 128px; border: 1px solid #DDD; box-sizing: border-box;}
+.main .type-list li .img img {width: 100%;}
+.main .type-list li .txt-wrap {position: relative; height: 88px; padding: 10px 15px 13px; border: 1px solid #DCDCDC; border-top: 0; box-sizing: border-box;}
+.main .type-list li .txt-wrap .title {overflow: hidden; width: 100%; max-height: 40px; margin-bottom: 12px; font-size: 14px; color: #222; line-height: 20px;}
+.main .type-list li .txt-wrap .date {position: absolute; left: 16px; bottom: 14px; font-family: 'Verdana'; font-size: 11px; color: #757575; line-height: 1; letter-spacing: 0;}
+#footer {padding: 56px 0; background-color: #ECECEC; font-family: 'Malgun Gothic, malgun,Nanum Gothic'; font-size: 12px; color: #424242; line-height: 20px; letter-spacing: 0;}
+
+/*sub */
+.content-sub {width: 1024px; margin: 0 auto; padding-bottom: 60px; overflow: hidden;}
+.content-sub .header {height: 46px; padding-left: 52px; margin-bottom: 10px; font-size: 15px; color: #FFF; line-height: 43px; font-weight: bold; box-sizing: border-box; letter-spacing: -0.5px; text-align: left;}
+.content-sub .cont {width: 1024px; text-align: left;}
+.content-sub .cont-left {float: left; width: 1024px; text-align: left;}
+.content-sub .cont-right {float: right;}
+.content-sub .con-area {padding: 10px 20px; /*border: 1px solid #DADADA;*/ box-sizing: border-box; overflow: hidden;}
+
+/* concept */
+.concept {position: relative; width: 100%;}
+.concept .concept-info, .concept .info-text {width: 531px; display: block; margin: 0 auto;}
+.concept .concept-info {padding: 90px 0;}
+.concept .info-text {color: #FFF; font-size: 18px; line-height: 32px; text-align: center;}
+.concept .info-text strong {font-size: 22px;}
+.concept .staff {width: 100%; height: 420px; position: absolute; bottom: -30px; left: 0; display: table;}
+.concept .staff-wrap {width: 100%; height: 100%; display: table-cell; vertical-align: middle; text-align: center;}
+.concept .staff-wrap strong.staff-tit {display: block; margin-bottom: 24px;}
+.concept .staff-wrap ul {text-align: left; width: 450px; margin: 0 auto;}
+.concept .staff-wrap ul li {margin: 10px 0; font-size: 0; border-bottom: 1px solid #CACACA; padding: 0 30px;}
+.concept .staff-wrap ul li:first-child {margin-top: 0;}
+.concept .staff-wrap ul li strong, .concept .staff-wrap ul li span {font-size: 16px; color: #5D5D5D; font-family: 'notokr-regular'; display: inline-block; vertical-align: top;}
+.concept .staff-wrap ul li strong {width: 70px; height: 30px; font-weight: normal; /*color: #1E629A; font-family: 'notokr-bold';*/ line-height: 30px; margin-right: 15px; font-size: 18px;}
+/*.concept .staff-wrap ul li strong p {width: 15px; height: 15px; display: inline-block; background: url(http://img.imbc.com/broad/tv/culture/nangmanclub/images/star_icon.png) 0 0 no-repeat; margin-right: 10px;}*/
+.concept .staff-wrap ul li span {line-height: 30px; width: 300px; word-break: keep-all;}
+
+/* cast */
+.cast_wrap {height: 1130px; background: url(http://placehold.it/725x1130) 0 0 no-repeat;}
+.cast_wrap .cast_team {padding: 201px 0 0 0; width: 50%; float: left;}
+.cast_team .cast_team_con {box-sizing: border-box;}
+.cast_team .cast_team_con.v1 {padding: 0 35px 0 106px;}
+.cast_team .cast_team_con.v2 {padding: 0 106px 0 35px;}
+.cast_team_con ul li .cs_img {position: relative; font-size: 0; line-height: 1;}
+.cast_team_con ul li {padding-bottom: 25px;}
+.cs_txt .img_wraping {line-height: 0; font: 0;}
+.cs_txt .cast-info {padding-top: 12px; color: #52418A; font-size: 16px; font-family: 'notokr-demilight'; line-height: 21px; letter-spacing: -1px;}
+.cs_txt .cast-info strong {font-family: 'notokr-bold';}
+
+/* footer */
+#footer {padding: 55px 0; color: #424242; background-color: #ECECEC;}
+
+/*Ect*/
+.main .preVod .txt-wrap .summary {font-size: 13px; line-height: 20px; color: #7D7D7D;}
+
+/* main - photo section */
+.section .photo {width: 1024px;}
+.section .photo_box ul li:nth-child(2n) {margin-right: 0;}
+
+/*contents*/
+.section {width: 1024px; margin: 0 auto; position: relative; text-align: left; margin-bottom: 45px; overflow: hidden;}
+.section h2 {width: 228px; height: 34px; color: #010101; font-size: 14px; font-weight: bold; line-height: 2;}
+.section .box-wrap {width: 714px; position: relative; float: left; margin-bottom: 40px;}
+.section .con_box {height: 216px; overflow: hidden;}
+.section .con_box ul {float: left;}
+.section .con_box ul li {position: relative; float: left; width: 228px; height: 214px; margin-right: 12px; border: 1px solid #DCDCDC;}
+.section .con_box ul li:nth-child(3n) {margin-right: 0;}
+.section .con_box a {line-height: 20px; font-weight: bold; font-size: 14px; letter-spacing: -.5px; color: #424242; font-weight: bold;}
+.section .con_box .img {position: relative; display: block; width: 100%; height: 128px; margin-bottom: 7px; overflow: hidden;}
+.section .con_box .img img {width: 228px;}
+.section .con_box .txt {padding: 3px 15px; display: block; font-size: 14px; text-align: left; color: #424242; font-weight: normal;}
+.section .con_box img.ico-m-play {width: 30px; height: 30px; position: absolute; bottom: 10px; right: 10px; width: auto; height: auto; z-index: 10;}
+.date {position: absolute; color: #959595; font-size: 11px; bottom: 7px; left: 15px; line-height: 20px;}
+.content .section-bottom {}
+.content .section-main-right {width: 250px; position: absolute; top: 0; right: 0;}
+
+/*jebo*/
+.jebo .con-area {font-family: "Nanum Gothic", "???足 ????", dotum, sans-serif; /*background-color: #F3F3ED;*/ padding: 0 22px 0 29px;}
+.detail-box {margin: 30px 0 15px; /*padding-bottom: 25px; border-bottom: 1px solid #CFCFCB;*/ font-weight: normal; letter-spacing: -1px;}
+.detail-box p {font-size: 16px; color: #483626; line-height: 26px;}
+.detail-box p.point {}
+.detail-box span {color: #7d260e;}
+.jebo form table {}
+.jebo form table caption {text-indent: -9999em; font-size: 0px; overflow: hidden;}
+.jebo table tr {border-top: solid 1px #e9e9e9;}
+.jebo table tr:first-child {border-top: none;}mian_top_bg.jpg
+.jebo table th {font-weight: normal; display: block; width: 62px; padding-left: 18px; font-size: 14px; color: #000; line-height: 66px; text-align: left; vertical-align: top;}
+.jebo table td {padding: 15px 0 15px 0; width: 486px;}
+.jebo table td input {width: 100%; height: 36px; padding: 0 20px; border: 1px solid #CCC; border-radius: 2px; font-family: inherit; font-size: 14px; color: #656565; box-sizing: border-box;}
+.jebo table td textarea {width: 100%; height: 175px; padding: 8px 12px 10px; box-sizing: border-box; border: 1px solid #CCC; border-radius: 2px; font-family: inherit; font-size: 14px; color: #656565; line-height: 20px; resize: none;}
+.jebo .attach-box {position: relative; margin: 7px 0;}
+.jebo .attach-box input {color: #757575; background-color: #fff; letter-spacing: inherit;}
+.attach-box input[type="file"] {position: absolute; width: 0px; height: 1px; padding: 0; margin: -1px; clip: rect(250, 250, 250, 0); border: 0; overflow: hidden;}
+.attach-box input#upName {width: 510px;}
+.attach-box label {position: absolute; right: 0; top: 0; width: 77px; height: 36px; line-height: 36px; display: inline-block; background: #7E6B5A; border-radius: 2px; font-size: 14px; color: #fff; text-align: center; vertical-align: middle; -webkit-appearance: none; -moz-appearance: none; appearance: none; cursor: pointer;}
+.attach-box label.upName {text-indent: -9999em; overflow: hidden;}
+.agr-wrap {margin-top: 40px;}
+.agr-area {padding: 32px 110px 32px 40px; background: #613717; border-radius: 2px;}
+.agr-area .agr-txt {margin-bottom: 18px;}
+.agr-area h3 {display: inline-block; padding: 8px 0 10px; margin-bottom: 9px; font-size: 18px; color: #f9e3d2; border-bottom: 2px solid #f9e3d2; line-height: 1; font-family: 'Nanum Gothic Bold';}
+.agr-area dd, .agr-area dt {display: inline; color: #FFF;}
+.agr-area dl {margin-bottom: 5px; font-size: 14px; line-height: 21px;}
+.agr-area dl.last {margin-top: 28px;}
+.agr-area dt {font-family: 'Nanum Gothic Bold';}
+.agr-area dd {}
+.check-wrap {overflow: hidden; padding: 20px; border-bottom: 1px solid #e9e9e9;}
+.check-wrap .check-area {position: relative; display: block; width: 100%; height: 25px;}
+.check-wrap .check-area input {position: absolute; width: 24px; height: 24px;}
+.check-wrap .check-area label {position: absolute; height: 24px; padding-left: 30px; background: #fff url(http://img.imbc.com/broad/tv/culture/secretdiary/images/jebo_chk-01.jpg) 0 0 no-repeat; background-size: 24px; font-size: 14px; line-height: 24px; color: #483626; font-family: 'Nanum Gothic Bold';}
+.check-wrap input[type="checkbox"]:checked + label {background: #FFF url('http://img.imbc.com/broad/tv/culture/secretdiary/images/jebo_chk-02.jpg') 0 0 no-repeat; background-size: 24px;}
+.btn-wrap {margin: 25px 0 33px; text-align: center;}
+.btn-wrap button {width: 210px; height: 50px; margin-left: -5px; background: #613717; border-radius: 2px; border: 0; font-family: inherit; font-size: 16px; color: #fff; font-family: 'Nanum Gothic Bold'; line-height: 47px; cursor: pointer;}
+
+.agr-wrap > p.agr-ntc {background-color: #834c21; color: #FFF; padding: 32px 40px; font-size: 14px;}
+
+/**/
+.section .box-wrap {width: 100%;}
+/*.visual-top .box-visual {background: #CCC;}*/
+/*.main .type-list li {height: 215px; background: #CCC; text-align: center; line-height: 215px; font-size: 40px;}*/
+/**/
+
+.btn-like-program-wrap {display: none !important;}
+
+.box-visual {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/ent/images/mian_top_bg.jpg) no-repeat center top;}
+/*.content-sub {background: #000 url(http://img.imbc.com/broad/tv/ent/event/2019mbc/ent/images/ent_bg.jpg) no-repeat 50% top;}*/
+
+
+/*방송연예대상*/
+.ent2019 .concept .nav ul {background: #363bd3;}
+.ent2019 .concept .cct_box {height: 1475px; background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/ent/images/concept_img.png) no-repeat 0 top;}

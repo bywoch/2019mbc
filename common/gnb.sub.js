@@ -1,0 +1,2 @@
+document.write("<script" + " type='text/jav"+"asc"+"ript' src='http://www.imbc.com/common/js/global_function.js' charset='euc-kr'></script" + ">");
+document.write("<script" + " type='text/jav"+"asc"+"ript' src='http://www.imbc.com/broad/tv/ent/event/2019mbc/common/sub_common.js' charset='euc-kr'></script" + ">");

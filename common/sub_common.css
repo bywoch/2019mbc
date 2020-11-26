@@ -1,0 +1,106 @@
+@charset "euc-kr";
+
+@import url(http://font.imbc.com/noto/noto.css);
+
+body {background: #000;}
+
+.hd-wrap .logo {float: left;height: 40px;}
+.hd-wrap .logo > a { display: block; width: 100%; height: 100%; line-height: 30px;}
+.hd-wrap .logo > a img {border: 0 none; vertical-align: bottom;}
+
+/* nav */
+.hd-wrap {width: 100%;border-bottom: 1px solid #5f5f5b; }
+#header { background: url(http://img.imbc.com/commons/2018/image/main/nav-bg-black.png) repeat-x center top; height: 105px !important; position: relative; top: 0; right: 0; left: 0; z-index: 180;}
+.hd-t {position:absolute !important; left:-9000px !important;}
+.gnb-wrap {width: 1218px; margin: 0 auto; position: relative; overflow: hidden;height: 40px;}
+.gnb-wrap .gnb-sub { float: right;}
+.gnb-wrap .gnb-sub ul { overflow:hidden; }
+.gnb-wrap .gnb-sub ul li {    font-size: 0; float: left; margin-left: 8px; line-height: 45px;}
+.gnb-wrap .gnb-sub ul li.search a, .gnb-wrap .gnb ul li.logo a { font-size:0; }
+/*.gnb-wrap .gnb-sub ul li a span { font-size:18px; box-sizing:border-box; vertical-align:middle; }*/
+.gnb-wrap .gnb-sub ul li.logo a, .nav .gnb ul li.search a { font-size:0; }
+.gnb-wrap .gnb-sub ul li.logo { display: none; margin-left:0; }
+.gnb-wrap .gnb-sub ul li.logo a {padding: 4px 8px; font-size: 12px; box-sizing: border-box; font-family: 'notokr-medium'; vertical-align: middle; }
+.gnb-wrap .gnb-sub ul li.logo img { margin-right:8px; }
+.gnb-wrap .gnb-sub ul li.imenu a {font-size: 12px; padding: 4px 8px; box-sizing: border-box; font-family: 'notokr-medium'; vertical-align: middle; color: #fff;}
+.gnb-wrap .gnb-sub ul li.imenu a:hover { background:#fff; color:#000; font-family:'notokr-bold'; }
+.gnb-wrap .gnb-sub ul li.imenu.active a { background:#fff; color:#000; font-family:'notokr-bold'; }
+.gnb-wrap .gnb-sub ul li.disco a { line-height:0; font-size:0; top:28px; }
+.gnb-wrap .gnb-sub ul li.disco span { line-height:32px; }
+.gnb-wrap .gnb-sub ul li.disco a:hover span { font-family:'notokr-medium'; background:#fff; color:#000; }
+.gnb-wrap .gnb-sub ul li.search a { position:relative; top:34px; }
+.gnb-wrap .gnb-sub ul li.search img { margin-left:8px; }
+.gnb-wrap .gnb-sub ul li a img { vertical-align:middle; width:inherit}
+
+.isnb, .search, .search-area { display:none;}
+
+.wrapper {width: 1218px; margin: 0 auto; position: relative;}
+
+.top_txt_wrap {position: relative; height: 64px;}
+.top_txt_bx {display: inline-block;}
+.top_txt_bx a {display: block; padding: 20px;}
+.prgr_nav_wrap {position: absolute; top: 0; right: 0;  z-index: 190;}
+.prgr_nav_wrap a {display: block; text-align: center;}
+.prgr_nav_wrap .prgr_nav .pn_title > a {height: 64px; line-height: 64px;}
+.prgr_nav_wrap .prgr_nav .pn_title > ul > li > a {height: 44px; line-height: 44px;}
+.prgr_nav_wrap .prgr_nav {font-size: 16px;}
+.prgr_nav_wrap .prgr_nav .pn_title {width: 284px; float: left; color: #FFF;}
+.prgr_nav_wrap .prgr_nav .pn_title > a {background: #000;}
+/*.prgr_nav_wrap .prgr_nav .pn_title > ul {background: rgba(0, 0, 0, 0.5);}*/
+.prgr_nav_wrap .prgr_nav .pn_title > ul {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/images/rgba_0-0-0-o5.png) repeat;}
+.prgr_nav_wrap .prgr_nav .pn_title:hover > a {text-decoration: underline;}
+.prgr_nav_wrap .prgr_nav .pn_title > ul > li:hover > a {text-decoration: underline;}
+.prgr_nav_wrap .prgr_nav .pntt_01:hover > a {color: #5c6fff;}
+.prgr_nav_wrap .prgr_nav .pntt_02:hover > a {color: #f14545;}
+.prgr_nav_wrap .prgr_nav .pntt_03:hover > a {color: #887cf9;}
+
+.nav ul li > a {color: #FFF;}
+.nav ul {border-bottom: none;}
+
+.content-sub {width: 1218px; padding-top: 60px;}
+.cs2 .cont_wrap {background: #FFF; overflow: hidden; padding-top: 30px;}
+.cs2 #right_common {margin-top: 20px;}
+.content-sub .cl2 {width: 725px;}
+.content-sub .cont_wrap {width: 1218px; margin: 0 auto;}
+
+.news .content-sub .cont {background: #FFF;}
+.news .content-sub .cont-left {width: 1218px; margin: 0 auto; background: #FFF;}
+
+.news .content-sub .con-area {padding: 20px;}
+
+/* footer 공통 */
+/*#footer { letter-spacing:-0.5px; text-align:center; font-family:'notokr-demilight'; }*/
+
+/* footer 공통 */
+#footer {background-color: #000; padding: 30px 0 60px;}
+.fnb-wrap {overflow: hidden; margin-bottom: 35px;}
+.fnb-wrap ul {overflow: hidden; font-size: 0;}
+.fnb-wrap ul li {float: left; height: 20px;}
+.fnb-wrap ul.foot-menu {float: left;}
+.fnb-wrap ul.foot-menu li {margin-left: 20px;}
+.fnb-wrap ul.foot-menu li:first-child {margin-left: 0;}
+.fnb-wrap ul.foot-menu li a {font-size: 16px; line-height: 20px; vertical-align: bottom; font-family: 'notokr-demilight'; color: #acacac; display: block;}
+.fnb-wrap ul.foot-menu li a span, .fnb-wrap ul.foot-menu li a strong {font-size: 16px; line-height: 20px; vertical-align: bottom;}
+.fnb-wrap ul.foot-menu li a span {font-family: "noto-regular";}
+.fnb-wrap ul.foot-menu li a strong {font-family: 'notokr-bold'; font-weight: normal;}
+.fnb-wrap ul.foot-menu li:hover a {color: #e5e5e5; font-weight: normal;}
+.fnb-wrap ul.sns-menu {float: right;}
+.fnb-wrap ul.sns-menu li {margin-left: 17px;}
+.fnb-wrap ul.sns-menu li:first-child {margin-left: 0;}
+.fnb-wrap ul.sns-menu li a {width: 22px; height: 20px; display: block; text-indent: -9999px; background-repeat: no-repeat; background-position: center top;}
+.fnb-wrap ul.sns-menu li a.twt {width: 20px; background-image: url(http://img.imbc.com/commons/2018/image/main/fnb-sns1.png);}
+.fnb-wrap ul.sns-menu li a.fcb {width: 10px; background-image: url(http://img.imbc.com/commons/2018/image/main/fnb-sns2.png);}
+.fnb-wrap ul.sns-menu li a.isg {background-image: url(http://img.imbc.com/commons/2018/image/main/fnb-sns3.png);}
+.fnb-wrap ul.sns-menu li a.ytb {background-image: url(http://img.imbc.com/commons/2018/image/main/fnb-sns4.png);}
+.add-wrap {margin-bottom: 28px;}
+.add-wrap {font-size: 14px; color: #a5a5a5; line-height: 24px;}
+.add-wrap .add-list span {line-height: 24px; background: url(http://img.imbc.com/commons/2018/image/main/add-vertical-line.png) no-repeat left center; padding-left: 8px; margin-left: 8px;}
+.add-wrap .add-list span.ceo {background: none; padding-left: 0; margin-left: 0;}
+.copylight {font-size: 14px; letter-spacing: 0; color: #fff;}
+
+/* focus */
+.visual .item a:focus:after {content: ''; display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+.spot-area .spot-wrap.on a:focus {outline: 0; opacity: 0.5;}
+
+/*Floating Banner*/
+.fb_bx {position: fixed; z-index: 999; top: 430px; right: 50%; margin-right: -780px;}

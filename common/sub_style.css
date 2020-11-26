@@ -1,0 +1,294 @@
+@charset "euc-kr";
+@import url(http://font.imbc.com/nanumgothic/nanumgothic.css);
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+
+body {font-family: '맑은 고딕', '맑은고딕', 'Malgun Gothic', 'malgun', 'Nanum Gothic'; letter-spacing: -1.2px;}
+a {color: inherit;}
+.blind {position: absolute; left: -9999px;}
+
+/*top*/
+.visual-top {position: relative; width: 100%; max-width: 1920px; margin: 0 auto; overflow: hidden;}
+.visual-top .pro-info {position: absolute; left: 40px; z-index: 20;}
+.main .visual-top .pro-info {bottom: 50px;}
+.sub .visual-top .pro-info {bottom: 40px;}
+.visual-top h1.tit-logo {float: left; display: inline-block; width: 73px; height: 73px;}
+.visual-top h1.tit-logo a {display: block; width: 100%; height: 100%;}
+h1.tit-logo a {display: block; width: 100%; height: 100%;}
+.visual-top .broad-info {float: left; margin-left: 15px; color: #FFF; margin-top: 6px;}
+.visual-top .broad-info .program-name {display: block; margin-bottom: 7px; font-size: 22px; font-weight: bold; line-height: 30px;}
+.visual-top .broad-info .broad-title {font-size: 12px; line-height: 1.1; letter-spacing: -0.03em;}
+.btn-like-program-wrap {display: inline-block; position: absolute; top: 23px; right: 18px; z-index: 100;}
+.visual-top .box-visual {width: 100%; height: 240px; padding-top: 10px; overflow: hidden;}
+.main .visual-top .box-visual {margin-bottom: 15px; width: 100%; height: 280px; padding-top: 0; margin-top: 10px; overflow: hidden;}
+.sub .visual-top .box-visual {}
+
+/* nav */
+.nav {position: relative; width: 100%; text-align: center; z-index: 150;}
+.nav ul {height: 65px; margin: 0 auto; text-align: center; width: 100%;}
+.nav ul li {position: relative; display: inline-block; margin-right: 48px; line-height: 36px; text-align: center;}
+.nav ul li :last-child {margin-right: 0;}
+.nav ul li > a {display: block; width: 100%; padding: 16px 0 10px; font-size: 15px;}
+.nav ul li .dropdown {position: absolute; left: 50%; /*display: none;*/}
+.nav ul li .dropdown a {float: left; display: inline-block; margin-right: 14px; font-size: 15px; color: #000; line-height: 65px;}
+.nav ul li .dropdown a:hover {color: #567f18; text-decoration: underline;}
+
+/*===============content [START]===============*/
+#programContent .content {width: 1024px; margin: 0 auto;}
+.section {position: relative; overflow: hidden; height: 250px;}
+
+#footer {font-family: 'Malgun Gothic, malgun,Nanum Gothic'; font-size: 12px; line-height: 20px; letter-spacing: 0;}
+
+/*sub */
+.content-sub {margin: 0 auto; padding-bottom: 60px; overflow: hidden;}
+.content-sub .header {height: 46px; margin-bottom: 10px; font-size: 15px; line-height: 43px; font-weight: bold; box-sizing: border-box; letter-spacing: -0.5px; text-align: left;}
+.content-sub .cont {width: 100%; text-align: left;}
+.content-sub .cont-left {float: none; width: 1024px; text-align: left;}
+.content-sub .cl2 {float: left; width: 725px; text-align: left;}
+.vod .content-sub .cl2 {float: left; width: 925px; padding: 20px 15px; text-align: left;}
+.content-sub .cont-right {float: right;}
+.content-sub .con-area {padding: 10px 20px; box-sizing: border-box; overflow: hidden;}
+
+/* concept */
+.concept {position: relative; width: 100%;}
+
+/* cast */
+.cast_wrap {height: 1130px; background: url(http://placehold.it/725x1130) 0 0 no-repeat;}
+.cast_wrap .cast_team {padding: 201px 0 0 0; width: 50%; float: left;}
+.cast_team .cast_team_con {box-sizing: border-box;}
+.cast_team .cast_team_con.v1 {padding: 0 35px 0 106px;}
+.cast_team .cast_team_con.v2 {padding: 0 106px 0 35px;}
+.cast_team_con ul li .cs_img {position: relative; font-size: 0; line-height: 1;}
+.cast_team_con ul li {padding-bottom: 25px;}
+.cs_txt .img_wraping {line-height: 0; font: 0;}
+.cs_txt .cast-info {padding-top: 12px; color: #52418A; font-size: 16px; font-family: 'notokr-demilight'; line-height: 21px; letter-spacing: -1px;}
+.cs_txt .cast-info strong {font-family: 'notokr-bold';}
+
+/* footer */
+/*#footer {padding: 55px 0; color: #424242; background-color: #ECECEC;}*/
+
+/*Ect*/
+.main .preVod .txt-wrap .summary {font-size: 13px; line-height: 20px; color: #7D7D7D;}
+
+/* main - photo section */
+.section .photo {width: 1024px;}
+.section .photo_box ul li:nth-child(2n) {margin-right: 0;}
+
+/*contents*/
+.section {width: 1024px; margin: 0 auto; position: relative; text-align: left; margin-bottom: 45px; overflow: hidden;}
+.section h2 {width: 228px; height: 34px; color: #010101; font-size: 14px; font-weight: bold; line-height: 2;}
+.section .box-wrap {width: 714px; position: relative; float: left; margin-bottom: 40px;}
+.section .con_box {height: 216px; overflow: hidden;}
+.section .con_box ul {float: left;}
+.section .con_box ul li {position: relative; float: left; width: 228px; height: 214px; margin-right: 12px; border: 1px solid #DCDCDC;}
+.section .con_box ul li:nth-child(3n) {margin-right: 0;}
+.section .con_box a {line-height: 20px; font-weight: bold; font-size: 14px; letter-spacing: -.5px; color: #424242; font-weight: bold;}
+.section .con_box .img {position: relative; display: block; width: 100%; height: 128px; margin-bottom: 7px; overflow: hidden;}
+.section .con_box .img img {width: 228px;}
+.section .con_box .txt {padding: 3px 15px; display: block; font-size: 14px; text-align: left; color: #424242; font-weight: normal;}
+.section .con_box img.ico-m-play {width: 30px; height: 30px; position: absolute; bottom: 10px; right: 10px; width: auto; height: auto; z-index: 10;}
+.date {position: absolute; color: #959595; font-size: 11px; bottom: 7px; left: 15px; line-height: 20px;}
+.content .section-bottom {}
+.content .section-main-right {width: 250px; position: absolute; top: 0; right: 0;}
+.agr-wrap > p.agr-ntc {background-color: #834c21; color: #FFF; padding: 32px 40px; font-size: 14px;}
+
+/**/
+
+.section .box-wrap {width: 100%;}
+.btn-like-program-wrap {display: none !important;}
+#imbc_content {font-family: 'Noto Sans KR', sans-serif;}
+.nav ul li > a {color: #FFF;}
+.allclip .content-sub .cont-left {margin: 0 auto;}
+
+/**/
+
+
+/**/
+
+.ticket .ticket_wrap {position: relative;}
+.ticket .ticket_wrap .tkt_txt_bx {position: absolute; overflow: hidden;}
+.ticket .ticket_wrap .ttbx1 .tkt_txt {width: 100%; height: 50px;}
+.ticket .ticket_wrap .ttbx1 .tkt_txt > span, .ticket .ticket_wrap .ttbx1 .tkt_txt > p {display: inline-block; float: left;}
+.ticket .ticket_wrap .ttbx1 .tkt_txt .tkt_span {font-size: 0;}
+.ticket .ticket_wrap .tkt_txt_bx .tkt_txt p {font-size: 16px; line-height: 24px;}
+.ticket .ticket_wrap .ttbx1 .tkt_txt p .c363bd3 {color: #363bd3;}
+.ticket .ticket_wrap .ttbx1 .tkt_txt p .ce8418c {color: #e8418c; display: inline-block; margin-top: 15px;}
+.ticket .ticket_wrap .ttbx2 .tkt_txt span, .ent2019 .ticket .ticket_wrap .ttbx2 .tkt_txt a {font-size: 0; display: inline-block;}
+.ticket .ticket_wrap .ttbx2 .tkt_txt .noti {width: 72px; height: 26px;}
+.ticket .ticket_wrap .ttbx2 .tkt_txt p {line-height: 32px;}
+.ticket .ticket_wrap .ttbx2 .tkt_txt .minfo {width: 116px; height: 29px;}
+.ticket .ticket_wrap .ttbx2 .tkt_txt p, .ticket .ticket_wrap .ttbx2 .tkt_txt .minfo {margin-left: 20px;}
+.program .prgr_wrap .prgr_vt_02 .cvt_txt span, .program .prgr_wrap .prgr_vt_02 .cvt_txt p {display: inline-block; float: left;}
+.couple .couple_wrap {}
+.couple .couple_wrap > div {width: 1218px; height: auto;}
+.couple .couple_wrap .couple_vt_01 {}
+.couple .couple_wrap .couple_vt_02 {height: 160px; padding: 20px 0;}
+.couple .couple_wrap .couple_vt_02 .cvt_txt {width: 565px; height: 50px; margin: 0 auto;}
+.couple .couple_wrap .couple_vt_02 .cvt_txt span, .couple .couple_wrap .couple_vt_02 .cvt_txt p {display: inline-block; float: left;}
+.couple .couple_wrap .couple_vt_02 .cvt_txt p {font-size: 20px; color: #000;}
+.couple .couple_wrap .couple_vt_02 .cvt_txt .cvt_span {width: 93px; height: 20px; margin-right: 25px; font-size: 0;}
+.couple .couple_wrap .couple_vt_03 {}
+.winner {}
+.winner .wnnr_wrap {}
+.winner .wnnr_wrap .wnnr_vt_01 {}
+.winner .wnnr_wrap .wnnr_vt_02 {width: 100%; max-width: 1038px;}
+.winner .wnnr_wrap .wnnr_waiting {font-size: 18px; text-align: center; padding-top: 170px; font-weight: bold;}
+.winner .wnnr_wrap .wnnr_vt_02 .w_txt_bx {width: 100%; margin-top: 45px; overflow: hidden;}
+.winner .wnnr_wrap .wnnr_vt_02 .wtbx_02 {margin-top: 0;}
+.winner .wnnr_wrap .wnnr_vt_02 .w_txt_bx p {font-size: 18px; line-height: 30px; display: inline-block; float: left;}
+.winner .wnnr_wrap .wnnr_vt_02 .w_txt_bx .wtxt_title {width: 250px; font-weight: bold;}
+.winner .wnnr_wrap .wnnr_vt_02 .w_txt_bx .wtxt_t_02 {font-weight: normal;}
+.winner .wnnr_wrap .wnnr_vt_02 .w_txt_bx .wtxt_title .wttl_sub {font-weight: normal;}
+.winner .wnnr_wrap .wnnr_vt_02 .w_txt_bx .wtxt_n_02 {margin-top: 29px;}
+
+.nav li .dropdown {width: 270px; z-index: 50; position: absolute; top: 65px; margin-left: -27px; padding: 5px 0; border-top: none;}
+.nav li .dropdown a {display: inline-block; text-align: center; font-family: "Nanum Gothic", 나눔고딕; font-size: 15px; line-height: 30px; margin-right: 14px;}
+.nav ul li .dropdown a:hover {text-decoration: underline;}
+
+/**/
+
+
+/*ENT Area*/
+
+.ent2019 .box-visual {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/ent/images/mian_top_bg-02.jpg) no-repeat center top;}
+.ent2019 .nav ul {width: 1218px; background: #363bd3;}
+.ent2019 .nav ul li > a:hover {border-bottom: 3px solid #FFF; color: #FFF; font-weight: bold;}
+.ent2019 .nav ul li > a.on {border-bottom: 3px solid #FFF; color: #FFF; font-weight: bold;}
+.ent2019 .content-sub .header {color: #FFF;}
+.ent2019 .cct_box {width: 100%; margin: 0 auto; height: 1475px; background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/ent/images/concept_img.png) no-repeat 0 -80px;}
+.ent2019 .ticket .ticket_wrap {height: 1000px; background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/ent/images/ticket_BG_v01.jpg) no-repeat 0 top;}
+.ent2019 .ticket .ticket_wrap .tkt_txt_bx {width: 710px; left: 50%; margin-left: -355px;}
+.ent2019 .ticket .ticket_wrap .ttbx1 {top: 340px;}
+.ent2019 .ticket .ticket_wrap .ttbx2 {bottom: 80px;}
+.ent2019 .ticket .ticket_wrap .ttbx1 .tkt_txt {width: 100%; height: 50px;}
+.ent2019 .ticket .ticket_wrap .tkt_txt_bx .tkt_txt p {color: #222;}
+.ent2019 .ticket .ticket_wrap .ttbx1 .tkt_txt .tkt_span {width: 115px; height: 18px; margin-right: 65px;}
+.ent2019 .ticket .ticket_wrap .ttbx1 .tkt_txt .sp1 {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/ent/images/tkt_txt_01.png) 0 0 no-repeat;}
+.ent2019 .ticket .ticket_wrap .ttbx1 .tkt_txt .sp2 {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/ent/images/tkt_txt_02.png) 0 0 no-repeat;}
+.ent2019 .ticket .ticket_wrap .ttbx1 .tkt_txt .sp3 {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/ent/images/tkt_txt_03.png) 0 0 no-repeat;}
+.ent2019 .ticket .ticket_wrap .ttbx1 .tkt_txt .sp4 {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/ent/images/tkt_txt_04.png) 0 0 no-repeat;}
+.ent2019 .ticket .ticket_wrap .ttbx1 .tkt_txt p .c363bd3 {color: #363bd3;}
+.ent2019 .ticket .ticket_wrap .ttbx1 .tkt_txt p .ce8418c {color: #e8418c; display: inline-block; margin-top: 15px;}
+.ent2019 .ticket .ticket_wrap .ttbx2 .tkt_txt span, .ent2019 .ticket .ticket_wrap .ttbx2 .tkt_txt a {font-size: 0; display: inline-block;}
+.ent2019 .ticket .ticket_wrap .ttbx2 .tkt_txt .noti {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/ent/images/tkt_notice_01.png) 0 0 no-repeat;}
+.ent2019 .ticket .ticket_wrap .ttbx2 .tkt_txt p {line-height: 32px; margin-top: 20px;}
+.ent2019 .ticket .ticket_wrap .ttbx2 .tkt_txt .minfo {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/ent/images/ticket_mInfo_v01.jpg) 0 0 no-repeat;}
+.ent2019 .program .prgr_wrap {}
+.ent2019 .program .prgr_wrap > div {width: 1218px; height: auto;}
+.ent2019 .program .prgr_wrap .prgr_vt_01 {}
+.ent2019 .program .prgr_wrap .prgr_vt_02 {background-color: #f2e0f9; height: 160px; padding: 20px 0;}
+.ent2019 .program .prgr_wrap .prgr_vt_02 .cvt_txt {width: 565px; height: 50px; margin: 0 auto;}
+.ent2019 .program .prgr_wrap .prgr_vt_02 .cvt_txt p {font-size: 20px; color: #000;}
+.ent2019 .program .prgr_wrap .prgr_vt_02 .cvt_txt .c737373 {font-size: 14px; color: #737373; margin-top: 15px;}
+.ent2019 .program .prgr_wrap .prgr_vt_02 .cvt_txt .cvt_span {width: 93px; height: 20px; margin-right: 25px; font-size: 0;}
+.ent2019 .program .prgr_wrap .prgr_vt_02 .cvt_txt .sp1 {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/ent/images/cvt_txt_01.png) 0 0 no-repeat;}
+.ent2019 .program .prgr_wrap .prgr_vt_02 .cvt_txt .sp2 {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/ent/images/cvt_txt_02.png) 0 0 no-repeat;}
+.ent2019 .program .prgr_wrap .prgr_vt_02 .cvt_txt .sp3 {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/ent/images/cvt_txt_03.png) 0 0 no-repeat;}
+.ent2019 .program .prgr_wrap .prgr_vt_03 {}
+.ent2019 .couple .couple_wrap .couple_vt_01 {}
+.ent2019 .couple .couple_wrap .couple_vt_02 {background-color: #f2e0f9;}
+.ent2019 .couple .couple_wrap .couple_vt_02 .cvt_txt .c737373 {font-size: 14px; color: #737373; margin-top: 15px;}
+.ent2019 .couple .couple_wrap .couple_vt_02 .cvt_txt .sp1 {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/ent/images/cvt_txt_01.png) 0 0 no-repeat;}
+.ent2019 .couple .couple_wrap .couple_vt_02 .cvt_txt .sp2 {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/ent/images/cvt_txt_02.png) 0 0 no-repeat;}
+.ent2019 .couple .couple_wrap .couple_vt_02 .cvt_txt .sp3 {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/ent/images/cvt_txt_03.png) 0 0 no-repeat;}
+.ent2019 .couple .couple_wrap .couple_vt_03 {}
+.ent2019 .winner .wnnr_wrap .wnnr_vt_02 {height: 2060px; padding: 45px 90px; background: #cdcceb url(http://img.imbc.com/broad/tv/ent/event/2019mbc/ent/images/winner_vt_02.jpg) 0 0 no-repeat;}
+.ent2019 .winner .wnnr_wrap .wnnr_vt_02 .w_txt_bx .wtxt_title, .winner .wnnr_wrap .wnnr_waiting {color: #3b24a2;}
+.ent2019 .winner .wnnr_wrap .wnnr_vt_02 .w_txt_bx .wtxt_name {color: #252527;}
+.ent2019 .nav li .dropdown a {color: #FFF;}
+.ent2019 .nav ul li .dropdown a:hover {color: #FFF;}
+
+/*DRAMA Area*/
+
+.drama2019 .ui-page {background: #FFF;}
+.drama2019 .box-visual {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/drama/images/mian_top_bg.jpg) no-repeat center top;}
+.drama2019 .nav ul {background: #7c2319;}
+.drama2019 .nav ul li > a:hover {border-bottom: 3px solid #ffd48a; color: #ffd48a; font-weight: bold;}
+.drama2019 .nav ul li > a.on {border-bottom: 3px solid #ffd48a; color: #ffd48a; font-weight: bold;}
+.drama2019 .content-sub .header {color: #000;}
+.drama2019 .cct_box {width: 1218px; margin: 0 auto; height: 1890px; background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/drama/images/concept_img.png) no-repeat 0 top;}
+.drama2019 .program .prgr_wrap {}
+.drama2019 .program .prgr_wrap > div {width: 1218px; height: auto;}
+.drama2019 .program .prgr_wrap .prgr_vt_01 {}
+.drama2019 .program .prgr_wrap .prgr_vt_02 {background-color: #f9f2e0; height: 160px; padding: 20px 0;}
+.drama2019 .program .prgr_wrap .prgr_vt_02 .cvt_txt {width: 580px; height: 50px; margin: 0 auto;}
+.drama2019 .program .prgr_wrap .prgr_vt_02 .cvt_txt span, .ent2019 .program .prgr_wrap .prgr_vt_02 .cvt_txt p {display: inline-block; float: left;}
+.drama2019 .program .prgr_wrap .prgr_vt_02 .cvt_txt p {font-size: 20px; color: #000;}
+.drama2019 .program .prgr_wrap .prgr_vt_02 .cvt_txt .c737373 {font-size: 14px; color: #737373; margin-top: 15px;}
+.drama2019 .program .prgr_wrap .prgr_vt_02 .cvt_txt .cvt_span {width: 93px; height: 20px; margin-right: 25px; font-size: 0;}
+.drama2019 .program .prgr_wrap .prgr_vt_02 .cvt_txt .sp1 {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/drama/images/cvt_txt_01.png) 0 0 no-repeat;}
+.drama2019 .program .prgr_wrap .prgr_vt_02 .cvt_txt .sp2 {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/drama/images/cvt_txt_02.png) 0 0 no-repeat;}
+.drama2019 .program .prgr_wrap .prgr_vt_02 .cvt_txt .sp3 {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/drama/images/cvt_txt_03.png) 0 0 no-repeat;}
+.drama2019 .program .prgr_wrap .prgr_vt_03 {}
+.drama2019 .couple .couple_wrap .couple_vt_01 {}
+.drama2019 .couple .couple_wrap .couple_vt_02 {background-color: #f9f2e0;}
+.drama2019 .couple .couple_wrap .couple_vt_02 .cvt_txt .c737373 {font-size: 14px; color: #737373; margin-top: 15px;}
+.drama2019 .couple .couple_wrap .couple_vt_02 .cvt_txt .sp1 {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/drama/images/cvt_txt_01.png) 0 0 no-repeat;}
+.drama2019 .couple .couple_wrap .couple_vt_02 .cvt_txt .sp2 {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/drama/images/cvt_txt_02.png) 0 0 no-repeat;}
+.drama2019 .couple .couple_wrap .couple_vt_02 .cvt_txt .sp3 {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/drama/images/cvt_txt_03.png) 0 0 no-repeat;}
+.drama2019 .couple .couple_wrap .couple_vt_03 {}
+.drama2019 .ticket .ticket_wrap {height: 1299px; background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/drama/images/ticket_BG_v01.jpg) no-repeat 0 top;}
+.drama2019 .ticket .ticket_wrap .tkt_txt_bx {width: 640px; left: 50%; margin-left: -340px;}
+.drama2019 .ticket .ticket_wrap .ttbx1 {top: 420px;}
+.drama2019 .ticket .ticket_wrap .ttbx2 {bottom: 300px; background: rgba(0, 0, 0, 0.2); padding: 30px;}
+.drama2019 .ticket .ticket_wrap .ttbx1 .tkt_txt {width: 100%; height: 45px;}
+.drama2019 .ticket .ticket_wrap .tkt_txt_bx .tkt_txt p {color: #ccac6d;}
+.drama2019 .ticket .ticket_wrap .ttbx1 .tkt_txt .tkt_span {width: 155px; height: 20px; margin-right: 65px;}
+.drama2019 .ticket .ticket_wrap .ttbx1 .tkt_txt .sp1 {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/drama/images/tkt_txt_01.png) 0 0 no-repeat;}
+.drama2019 .ticket .ticket_wrap .ttbx1 .tkt_txt .sp2 {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/drama/images/tkt_txt_02.png) 0 0 no-repeat;}
+.drama2019 .ticket .ticket_wrap .ttbx1 .tkt_txt .sp3 {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/drama/images/tkt_txt_03.png) 0 0 no-repeat;}
+.drama2019 .ticket .ticket_wrap .ttbx1 .tkt_txt .sp4 {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/drama/images/tkt_txt_04.png) 0 0 no-repeat;}
+.drama2019 .ticket .ticket_wrap .ttbx1 .tkt_txt p .cf2eadb {color: #f2eadb; display: inline-block; margin-top: 15px; font-size: 14px;}
+.drama2019 .ticket .ticket_wrap .ttbx2 .tkt_txt span, .drama2019 .ticket .ticket_wrap .ttbx2 .tkt_txt a {font-size: 0; display: inline-block;}
+.drama2019 .ticket .ticket_wrap .ttbx2 .tkt_txt .noti {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/drama/images/tkt_notice_01.png) 0 0 no-repeat;}
+.drama2019 .ticket .ticket_wrap .ttbx2 .tkt_txt p {line-height: 32px; margin-top: 20px;}
+.drama2019 .ticket .ticket_wrap .ttbx2 .tkt_txt .ca1603f {color: #a1603f;}
+.drama2019 .ticket .ticket_wrap .ttbx2 .tkt_txt .ca1603f span {color: #ccac6d; font-size: 16px;}
+.drama2019 .ticket .ticket_wrap .ttbx2 .tkt_txt .minfo {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/drama/images/ticket_mInfo_v01.jpg) 0 0 no-repeat;}
+.drama2019 .winner .wnnr_wrap .wnnr_vt_02 {height: 1140px; padding: 490px 100px 45px; background: #020411 url(http://img.imbc.com/broad/tv/ent/event/2019mbc/drama/images/winner_vt.jpg) 0 0 no-repeat;}
+.drama2019 .winner .wnnr_wrap .wnnr_vt_02 .w_txt_bx .wtxt_title,.drama2019 .winner .wnnr_wrap .wnnr_waiting {color: #e6d295;}
+.drama2019 .winner .wnnr_wrap .wnnr_vt_02 .w_txt_bx .wtxt_name {color: #FFF;}
+.drama2019 .nav li .dropdown a {color: #000;}
+.drama2019 .nav ul li .dropdown a:hover {color: #000;}
+
+/*GAYO Area*/
+
+.gayo2019 .ui-page {background: #000;}
+.gayo2019 .box-visual {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/gayo/images/mian_top_bg-02.jpg) no-repeat center top;}
+.gayo2019 .nav ul {width: 1218px; background: #4339a6;}
+.gayo2019 .nav ul li > a:hover {border-bottom: 3px solid #FFF; color: #FFF; font-weight: bold;}
+.gayo2019 .nav ul li > a.on {border-bottom: 3px solid #FFF; color: #FFF; font-weight: bold;}
+.gayo2019 .content-sub .header {color: #FFF;}
+.gayo2019 .cct_box {width: 1218px; margin: 0 auto; height: 1890px; background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/gayo/images/concept_img-03.jpg) no-repeat 0 top;}
+.gayo2019 .ticket .ticket_wrap {height: 1389px; background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/gayo/images/ticket_BG_v01.jpg) no-repeat center top;}
+.gayo2019 .ticket .ticket_wrap .tkt_txt_bx {width: 780px; left: 50%; margin-left: -360px;}
+.gayo2019 .ticket .ticket_wrap .ttbx1 {top: 570px;}
+.gayo2019 .ticket .ticket_wrap .ttbx2 {bottom: 85px; width: 770px; margin-left: -385px;}
+.gayo2019 .ticket .ticket_wrap .ttbx1 .tkt_txt {width: 100%; height: 50px;}
+.gayo2019 .ticket .ticket_wrap .ttbx1 .tkt_txt .tkt_span {width: 155px; height: 24px; margin-right: 65px;}
+.gayo2019 .ticket .ticket_wrap .ttbx1 .tkt_txt .sp1 {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/gayo/images/tkt_txt_01.png) 0 4px no-repeat;}
+.gayo2019 .ticket .ticket_wrap .ttbx1 .tkt_txt .sp2 {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/gayo/images/tkt_txt_02.png) 0 4px no-repeat;}
+.gayo2019 .ticket .ticket_wrap .ttbx1 .tkt_txt .sp3 {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/gayo/images/tkt_txt_03.png) 0 4px no-repeat;}
+.gayo2019 .ticket .ticket_wrap .ttbx1 .tkt_txt .sp4 {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/gayo/images/tkt_txt_04.png) 0 4px no-repeat;}
+.gayo2019 .ticket .ticket_wrap .ttbx1 .tkt_txt .sp5 {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/gayo/images/tkt_txt_05.png) 0 4px no-repeat;}
+.gayo2019 .ticket .ticket_wrap .ttbx1 .tkt_txt .sp6 {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/gayo/images/tkt_txt_06.png) 0 4px no-repeat;}
+.gayo2019 .ticket .ticket_wrap .ttbx2 .tkt_txt a {font-size: 0; display: inline-block;}
+.gayo2019 .ticket .ticket_wrap .tkt_txt_bx .tkt_txt p {color: #FFF;}
+.gayo2019 .ticket .ticket_wrap .ttbx2 .tkt_txt p span {color: #4e4d50; float: left; font-size: 16px; line-height: 20px;}
+.gayo2019 .ticket .ticket_wrap .ttbx2 .tkt_txt p .tktfl-01 {width: 15px;}
+.gayo2019 .ticket .ticket_wrap .ttbx2 .tkt_txt p .tktfl-02 {width: 730px;}
+.gayo2019 .ticket .ticket_wrap .ttbx2 .tkt_txt p, .gayo2019 .ticket .ticket_wrap .ttbx2 .tkt_txt .minfo {overflow: hidden; line-height: 25px;}
+.gayo2019 .ticket .ticket_wrap .ttbx2 .tkt_txt .noti {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/gayo/images/tkt_notice_01.png) 0 0 no-repeat;}
+.gayo2019 .ticket .ticket_wrap .ttbx2 .tkt_txt .minfo {background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/gayo/images/ticket_mInfo_v01.jpg) 0 0 no-repeat;}
+.gayo2019 .artist .arti_wrap {}
+.gayo2019 .artist .arti_wrap > div {width: 1218px; height: auto;}
+.gayo2019 .artist .arti_wrap .arti_vt_01 {}
+.gayo2019 .artist .arti_wrap .arti_vt_02 {width: 1218px; height: auto; padding-bottom: 50px; background: url(http://img.imbc.com/broad/tv/ent/event/2019mbc/gayo/images/artist_vt_02.jpg) 0 0 repeat;}
+.gayo2019 .artist .arti_wrap .arti_vt_02 ul {width: 1060px; margin: 0 auto; overflow: hidden; padding-top: 60px;}
+.gayo2019 .artist .arti_wrap .arti_vt_02 ul li {width: 245px; height: 230px; float: left; margin-left: 20px; margin-top: 40px;}
+.gayo2019 .artist .arti_wrap .arti_vt_02 ul li span {display: block; width: 100%; height: 170px; background-color: #5b77ff; border-radius: 15px; position: relative;}
+.gayo2019 .artist .arti_wrap .arti_vt_02 ul li span img {display: block; margin: 0 auto; padding-top: 10px; width: 100%; max-width: 225px;}
+.gayo2019 .artist .arti_wrap .arti_vt_02 ul li p {font-size: 24px; color: #0f2175; text-align: center; margin-top: 15px;}
+.gayo2019 .artist .arti_wrap .arti_vt_02 ul li:first-child, .gayo2019 .artist .arti_wrap .arti_vt_02 ul li:nth-child(5), .gayo2019 .artist .arti_wrap .arti_vt_02 ul li:nth-child(9), .gayo2019 .artist .arti_wrap .arti_vt_02 ul li:nth-child(13), .gayo2019 .artist .arti_wrap .arti_vt_02 ul li:nth-child(17), .gayo2019 .artist .arti_wrap .arti_vt_02 ul li:nth-child(21), .gayo2019 .artist .arti_wrap .arti_vt_02 ul li:nth-child(25), .gayo2019 .artist .arti_wrap .arti_vt_02 ul li:nth-child(29), .gayo2019 .artist .arti_wrap .arti_vt_02 ul li:nth-child(33) {margin-left: 0;}
+
+.gayo2019 .nav li .dropdown a {color: #FFF;}
+.gayo2019 .nav ul li .dropdown a:hover {color: #FFF;}
